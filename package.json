@@ -4,6 +4,8 @@
   "description": "Format test file into xml, json, and csv.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "tidy": "rm customers.xml orders.json products.csv",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Pham",
