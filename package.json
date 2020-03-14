@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "tidy": "rm customers.xml orders.json products.csv",
+    "tidy": "rm -rf output_files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Pham",
   "license": "ISC",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "xmlbuilder": "^15.0.0"
   }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="customers">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="customer" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="id" type="xsd:string"/>
+              <xsd:element name="name" type="xsd:string"/>
+              <xsd:element name="email" type="xsd:string"/>
+              <xsd:element name="age" type="xsd:integer" minOccurs="0"/>
+              <xsd:element name="gender" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>
